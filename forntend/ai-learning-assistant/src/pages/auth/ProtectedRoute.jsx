@@ -10,7 +10,7 @@ const ProtectedRoute = () => {
     if (loading) {
         return <div>Loading...</div>
     }
-    return isAuthenticated ? (
+    return isAuthenticated ? (   
         <AppLayout>
             <Outlet />
         </AppLayout>
